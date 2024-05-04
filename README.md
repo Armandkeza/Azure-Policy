@@ -7,4 +7,4 @@ The below policies will be deployed:
 **-Platform Policy:** Platform landing zone consist of the different shared infrastructure that will be used by the application such connectivity, identity,security,etc. We will enforce specific azure policies for our shared infrastructure ressources.    
 **-BU1 Policy:** Each Business unit migrating to the cloud can have it's own specific requirements and we can enforce specific azure policy on the BU management group.    
 **-Application policy:** Different application within a BU can have different requirements, hence we can apply specific policy to an application subscription.    
-We use variables file to different the different management group and subscritions ID where our policy will be applied.  
+We use variables file to define the different management group and subscritions ID where our policy will be applied.  
